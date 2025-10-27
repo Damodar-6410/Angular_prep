@@ -8,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  name:string = 'Damodar Tirole';
+
+  handleClickEvent() {
+    this.otherFuction();
+    alert('Login button clicked');
+  }
+
+  otherFuction() {
+    console.log('Other function executed');
+  }
 }
