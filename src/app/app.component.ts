@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { LoginComponent } from './login/login.component';
-import { CounterComponent } from './counter/counter.component';
+import { EventsComponent } from './events/events.component';
 
 @Component({
   selector: 'app-root',
-  imports: [CounterComponent],
+  imports: [EventsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
