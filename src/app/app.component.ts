@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { LoginComponent } from './login/login.component';
+import { ElseIfComponent } from './else-if/else-if.component';
 
 @Component({
   selector: 'app-root',
-  imports: [LoginComponent],
+  imports: [ElseIfComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
