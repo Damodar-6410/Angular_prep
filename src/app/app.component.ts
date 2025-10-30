@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { ElseIfComponent } from './else-if/else-if.component';
-import { SwitchCondiComponent } from './switch-condi/switch-condi.component';
+import { ForLoopComponent } from './for-loop/for-loop.component';
+
 
 @Component({
   selector: 'app-root',
-  imports: [SwitchCondiComponent],
+  imports: [ForLoopComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
