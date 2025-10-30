@@ -1,21 +1,24 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-login',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
 
-  name:string = 'Damodar Tirole';
+  display = true;
+  toggleDiv = true;
 
-  handleClickEvent() {
-    this.otherFuction();
-    alert('Login button clicked');
+
+  toggleDisplay() {
+    this.display = !this.display;
   }
 
-  otherFuction() {
-    console.log('Other function executed');
+  toggleTwo(){
+    this.toggleDiv = !this.toggleDiv;
   }
+
 }
