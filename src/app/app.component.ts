@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { ForLoopComponent } from './for-loop/for-loop.component';
+import { SignalsComponent } from './signals/signals.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [ForLoopComponent],
+  imports: [SignalsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
