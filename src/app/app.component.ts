@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { SignalsComponent } from './signals/signals.component';
+import { EffectComponent } from './effect/effect.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [SignalsComponent],
+  imports: [EffectComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -13,4 +13,5 @@ export class AppComponent {
   x=20;
   y=20;
 
+  
 }

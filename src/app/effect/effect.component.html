@@ -1,1 +1,9 @@
-<p>effect works!</p>
+<h1>effect works!</h1>
+<h1>{{userName()}}</h1>
+<button (click)="userName.set('sam')">Update User Name</button>
+<hr>
+<h1>{{count()}}</h1>
+<button (click)="toggleValue()">Show Heading</button>
+@if(displayHeading){
+    <h2 style="background-color: green;">This is a conditional heading</h2>
+}
