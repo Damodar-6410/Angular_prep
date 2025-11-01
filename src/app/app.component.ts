@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { TodoListComponent } from './todo-list/todo-list.component';
+import { DynamicStylingComponent } from './dynamic-styling/dynamic-styling.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [TodoListComponent],
+  imports: [DynamicStylingComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
