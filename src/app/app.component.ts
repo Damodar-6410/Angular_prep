@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { BindingComponent } from './binding/binding.component';
+import { TodoListComponent } from './todo-list/todo-list.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [BindingComponent],
+  imports: [TodoListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
