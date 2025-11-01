@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { ForLoop1Component } from './for-loop1/for-loop1.component';
+import { BindingComponent } from './binding/binding.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [ForLoop1Component],
+  imports: [BindingComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
