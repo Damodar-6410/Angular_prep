@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { EffectComponent } from './effect/effect.component';
+import { ForLoop1Component } from './for-loop1/for-loop1.component';
 
 
 @Component({
   selector: 'app-root',
-  imports: [EffectComponent],
+  imports: [ForLoop1Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -13,5 +13,5 @@ export class AppComponent {
   x=20;
   y=20;
 
-  
+
 }

@@ -1,0 +1,25 @@
+<h1>for-loop1 works!</h1>
+
+@for(user of users; track user;
+let i = $index;
+let f = $first;
+let l = $last
+){
+    <!-- <h1>{{$count}}</h1> -->
+
+    <!-- @if(f || l){
+        <h3 style="background-color: red;">this is our {{i+1}} user and name is {{user}}</h3>
+    }@else{
+        <h3>this is our {{i+1}} user and name is {{user}}</h3>
+    } -->
+
+    @if($odd){
+        <h3 style="background-color: blue;">this is our {{i+1}} user and name is {{user}}</h3>
+    }@else{
+        <h3 style="background-color: red;">this is our {{i+1}} user and name is {{user}}</h3>
+    }
+}
+    @empty(){
+        <h1>No Result Found</h1>
+    }
+
